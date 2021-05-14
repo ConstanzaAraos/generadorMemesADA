@@ -76,47 +76,48 @@
                     </div>
                   </div>
                 </div>
-                <div class="">
-                  <h3>Filtros</h3>
-                  <div>
-                    <label>Brillo</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>Opacidad</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>Contraste</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>Desenfoque</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>Escala de grises</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>Sepia</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>hue</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>Saturado</label>
-                    <input>
-                  </div>
-                  <div>
-                    <label>Negativo</label>
-                    <input>
-                  </div>
-                </div>
-                <button>Reestablecer filtros</button>
-              </section>
+ <!--filtros-->
+    <div class="control-panel">
+    <h3 class= "control-panel-titulo">Filtros</h3>
+    <div class="control-panel-slider">
+      <label for="brightness-slider">Brillo</label>
+      <input type="range" id="opacity-slider" min="0" max="1" value="1" step="0.1">
+    </div>
+    <div class="control-panel-slider">
+      <label for="opacity-slider">Opacidad</label>
+      <input type="range" id="opacity-slider" min="0" max="1" value="1" step="0.1">
+    </div>
+    <div class="control-panel-slider">
+      <label for="constrast-slider" >Contraste</label>
+      <input type="range" id="constrast-slider" min="100" max="1000" value="100">
+    </div>
+    <div class="control-panel-slider">
+      <label for="blur-slider">Desenfoque</label>
+      <input type="range" id="blur-slider" min="0" max="10" value="0" step="0.1">
+    </div>
+    <div class="control-panel-slider">
+      <label for="grayscale-slider">Escala de grises</label>
+      <input type="range" id="grayscale-slider" min="0" max="100" value="0">
+    </div>
+    <div class="control-panel-slider">
+      <label for="sepia-slider">Sepia</label>
+      <input type="range" id="sepia-slider" min="0" max="100" value="0">
+    </div>
+    <div class="control-panel-slider">
+      <label for="hue-slider">Hue</label>
+      <input type="range" id="hue-slider" min="0" max="360" value="0">
+    </div>
+    <div class="control-panel-slider">
+      <label for="saturate-slider">Saturado</label>
+      <input type="range" id="saturate-slider" min="100" max="1000" value="100" step="10">
+    </div>
+    <div class="control-panel-slider">
+      <label for="invert-slider">Negativo</label>
+      <input type="range" id="invert-slider" min="0" max="1" value="0" step="0.1">
+    </div>
+  </div>
+  <button class="boton boton-defecto" id="default-filters-button">Reestablecer filtros</button>
+   </section>
 
               <!--TEXT PANEL-->
               <section class="">
